@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.topBar{
+    display: flex;
+    background-color: #0A1128;
+    justify-content: space-between;
+    color: #FEFCFB;
+}
+
+.rightSideTopBar{
+    min-width:200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+#titleTop{
+    margin-left: 30px;
+}
+
+.welcomeBox{
+    background-color: #0A1128;
+    color: #FEFCFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.quote{
+    display: flex;
+    background-color: #1282A2;
+    border-radius: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.quoteMain{
+    font-style: italic;
+}
+
+.quoter{
+    margin-top: 50px;
+    text-wrap: nowrap;
+}
+
+.callToAction{
+    background-color: #034078;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 5%;
+    margin-bottom: 50px;
+}
+
+.head1{
+    color: #FEFCFB;
+}
+
+.text1{
+    color: #FEFCFB;
+}
+
+.callToActionButton{
+    height: 30px;
+    width: 150px;
+    color:#0A1128;
+    background-color: #FEFCFB;
+    border: 0px;
+    border-radius: 5%;
+}
+
+.middleTitle{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 5%;
+    background-color: #001F54;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recipeGrid{
+    display: flex;
+    justify-content: space-around;
+    background-color:#001F54;
+    margin-top: -3px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.gridElement{
+    text-align: center;
+    display: flex;
+    border-radius: 5%;
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+    color: #FEFCFB;
+}
+
+.cookieButton{
+    background-image: url(Pictures/best-chocolate-chip-cookies-recipe-1.jpg);
+}
+.buttonPressed{
+    background-color: #1282A2;
+}
+.fajitaButton{
+    background-image: url(Pictures/chicken-fajitas-recipe-square.jpg);
+}
+.potatoButton{
+    background-image: url(Pictures/wholesomeyum-Oven-Roasted-Potatoes-2.jpg);
+}
+
+.footer{
+    background-color:#0A1128;
+    color: #FEFCFB;
+    text-align: center;
+}
